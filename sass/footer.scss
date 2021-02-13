@@ -1,0 +1,56 @@
+.footer {
+    padding: 100px 0;
+    background: #051257;
+
+    .nav {
+        display: flex;
+        margin-bottom: 74px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        &-logo {
+            &-text {
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 27px;
+                color: #FFFFFF;
+            }
+        }
+
+        &-list {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            &-item {
+                margin-right: 24px;
+                &-link {
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    .created {
+        display: block;
+        margin-bottom: 12px;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .freepik {
+        display: block;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}

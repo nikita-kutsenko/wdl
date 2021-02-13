@@ -1,0 +1,187 @@
+.header {
+    width: 100vw;
+    overflow: hidden;
+
+    .nav {
+        position: fixed;
+        display: flex;
+        padding: 13px 32px;
+        width: calc(100% - 64px);
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10010;
+        background-color: transparent;
+        transition: background-color 0.25s, color 0.25s ;
+
+        &-logo {
+            padding: 0;
+
+            &-text {
+                font-weight: bold;
+                font-size: 22px;
+                line-height: 27px;
+                color: #051257;
+            }
+        }
+
+        &-list {
+            display: flex;
+
+            &-item {
+                margin: 0 18px 0 0;
+                &-link {
+                    padding: 6px 24px;
+                    background: #FFFFFF;
+                    transition: box-shadow 0.25s;
+                    box-shadow: -10px 10px 20px rgba(211, 212, 212, 0.2), 10px -10px 20px rgba(211, 212, 212, 0.2), -10px -10px 20px rgba(255, 255, 255, 0.9), 10px 10px 25px rgba(211, 212, 212, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(211, 212, 212, 0.5);
+                    border-radius: 20px;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #051257;
+                }
+            }
+
+            .nav-active {
+                box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(173, 173, 173, 0.5), inset -2px 2px 4px rgba(173, 173, 173, 0.2), inset 2px -2px 4px rgba(173, 173, 173, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.9), inset 2px 2px 5px rgba(173, 173, 173, 0.9);
+            }
+        }
+
+        &-switcher {
+            position: relative;
+            width: 74px;
+            height: 34px;
+            background: #F6F6F6;
+            box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3), -1px -1px 2px rgba(160, 160, 160, 0.5), inset -1px 1px 2px rgba(160, 160, 160, 0.2), inset 1px -1px 2px rgba(160, 160, 160, 0.2), inset -1px -1px 2px rgba(255, 255, 255, 0.9), inset 1px 1px 3px rgba(160, 160, 160, 0.9);
+            border-radius: 20px;
+
+            &:before {
+                content: "";
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                width: 30px;
+                height: 30px;
+                background: #181C27;
+                border-radius: 50%;
+            }
+        }
+
+        
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        padding: 98px 0 0 60px;
+        z-index: 1000;
+
+        &-dotsTop {
+            position: absolute;
+            left: -76px;
+        }
+
+        &-title {
+            padding: 50px 0 0;
+            font-weight: bold;
+            font-size: 250px;
+            line-height: 312px;
+            color: #051257;
+            z-index: 1020;
+        }
+        
+        &-desc {
+            padding: 0 0 0 20px;
+            margin: 0 0 262px;
+            max-width: 521px;
+            font-weight: bold;
+            font-size: 46px;
+            line-height: 57px;
+            color: #051257;
+            z-index: 1019;
+        }
+
+        &-dotsBottom {
+            position: absolute;
+            transform: rotate(-180deg);
+            left: 510px;
+            top: 570px;
+        }
+
+        &-img {
+            width: 816px;
+            height: 820px;
+            position: absolute;
+            right: 0;
+            top: -28px;
+            z-index: 1013;
+            background-image: url(/assets/index-people.png);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        &-shape {
+            position: absolute;
+            right: -480px;
+            top: -320px;
+            z-index: 810;
+        }
+
+        &-arrow {
+            width: 38px;
+            height: 130px;
+            margin-top: 90px;
+            margin-left: calc(50% - 65px);
+            background-image: url(/assets/index-arrow.png);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            z-index: 1018;
+            animation: 1s infinite alternate-reverse index-arrow;
+        }
+    }
+
+    .heroTests {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 98px 0 0 60px;
+        margin-bottom: 130px;
+        z-index: 1000;
+
+        &-dotsTop {
+            position: absolute;
+            left: -76px;
+        }
+
+        &-title {
+            padding: 50px 0 0;
+            font-weight: bold;
+            font-size: 200px;
+            line-height: 250px;
+            color: #051257;
+            z-index: 1020;
+            text-align: center;
+        }
+        
+        &-desc {
+            // padding: 0 0 0 20px;
+            margin: 0 0 76px;
+            max-width: 1050px;
+            text-align: center;
+            font-weight: normal;
+            font-size: 46px;
+            line-height: 57px;
+            color: #051257;
+            z-index: 1019;
+        }
+
+        &-dotsBottom {
+            position: absolute;
+            transform: rotate(-180deg);
+            right: 0;
+            bottom: -100px;
+        }
+    }
+}

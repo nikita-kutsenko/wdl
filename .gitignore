@@ -1,0 +1,6 @@
+# global 
+*.DS_Store
+node_modules/
+
+# editor files
+.vscode
