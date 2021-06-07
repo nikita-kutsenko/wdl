@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
     <title>WDL | Front-End: Basic test</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.js" integrity="sha512-opXrgVcTHsEVdBUZqTPlW9S8+99hNbaHmXtAdXXc61OUU6gOII5ku/PzZFqexHXc3hnK8IrJKHo+T7O4GRIJcw==" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
@@ -167,112 +168,9 @@
                 <h3 class="test-desc">This test contains 10 questions and it will take approximately 5 minutes. Due to your answers you will get the list of recommendations.
                 </h3>
                 <!-- start the test  -->
-                <span id="start" class="test-start">start the test</span>
+                <span id="start" onclick="next_task()" class="test-start">start the test</span>
             </div>
-            <!-- TEST  -->
-            <div id="test"  class="test">
-                <form class="card" id="card">
-                    <p class="card-headline">Task 1 of 10</p>
-                    <p class="card-title">Question:</p>
-                    <p class="card-question">“What tag is used to indicate the page author, keywords, description and encoding?”</br>PS. IDK - i don't know</p>
-                    <p class="card-title">Answers:</p>
-                    <ul class="card-answers">
-                        <li class="card-answers-answer">
-                            <input class="card-answers-answer-radio" type="radio" name="answersList-radio" value="mete">
-                            <span class="card-answers-answer-checkmark">mete</span>
-                        </li>
-                        <li class="card-answers-answer">
-                            <input class="card-answers-answer-radio" type="radio" name="answersList-radio" value="head">
-                            <span class="card-answers-answer-checkmark">head</span>
-                        </li>
-                        <li class="card-answers-answer">
-                            <input class="card-answers-answer-radio" type="radio" name="answersList-radio" value="meta">
-                            <span class="card-answers-answer-checkmark">meta</span>
-                        </li>
-                        <li class="card-answers-answer">
-                            <input class="card-answers-answer-radio" type="radio" name="answersList-radio" value="html">
-                            <span class="card-answers-answer-checkmark">html</span>
-                        </li>
-                        <li class="card-answers-answer">
-                            <input class="card-answers-answer-radio" type="radio" name="answersList-radio" value="idk">
-                            <span class="card-answers-answer-checkmark">idk</span>
-                        </li>
-                    </ul>
-                    <button class="card-submit" type="submit">Next task</button>        
-                </form>
-            </div>
-            <!-- TEST  -->
-            <div id="test" class="test">
-                <div class="result">
-                    <p class="result-headline">Result</p>
-                    <div class="result-total">
-                        <p class="result-total-text">Total result:</p>
-                        <p class="result-total-number">95%</p>
-                    </div>
-                    <div class="result-topics">
-                        <div class="result-topics-topic">
-                            <p class="result-topics-topic-text">HTML result:</p>
-                            <p class="result-topics-topic-number">95%</p>
-                        </div>
-                        <div class="result-topics-topic">
-                            <p class="result-topics-topic-text">CSS result:</p>
-                            <p class="result-topics-topic-number">95%</p>
-                        </div>
-                        <div class="result-topics-topic">
-                            <p class="result-topics-topic-text">JavaScript result:</p>
-                            <p class="result-topics-topic-number">95%</p>
-                        </div>
-                    </div>
-
-                    <div class="result-links">
-                        <p class="result-links-title">What to refresh in the memory:</p>
-                        <div class="result-links-line">
-                            <p class="result-links-line-text">CSS “Name of the theme”:</p>
-                            <a href="" class="result-links-line-link">Go to</a>
-                        </div>
-                        <div class="result-links-line">
-                            <p class="result-links-line-text">CSS “Name of the theme”:</p>
-                            <a href="" class="result-links-line-link">Go to</a>
-                        </div>
-                        <div class="result-links-line">
-                            <p class="result-links-line-text">CSS “Name of the theme”:</p>
-                            <a href="" class="result-links-line-link">Go to</a>
-                        </div>
-                    </div>
-
-                    <div class="result-links">
-                        <p class="result-links-title">What to learn:</p>
-                        <div class="result-links-line">
-                            <p class="result-links-line-text">CSS “Name of the theme”:</p>
-                            <a href="" class="result-links-line-link">Go to</a>
-                        </div>
-                        <div class="result-links-line">
-                            <p class="result-links-line-text">CSS “Name of the theme”:</p>
-                            <a href="" class="result-links-line-link">Go to</a>
-                        </div>
-                        <div class="result-links-line">
-                            <p class="result-links-line-text">CSS “Name of the theme”:</p>
-                            <a href="" class="result-links-line-link">Go to</a>
-                        </div>
-                    </div>
-
-                    <div class="result-links">
-                        <p class="result-links-title">Recommendations:</p>
-                        <div class="result-links-line">
-                            <p class="result-links-line-text">CSS “Name of the theme”:</p>
-                            <a href="" class="result-links-line-link">Go to</a>
-                        </div>
-                        <div class="result-links-line">
-                            <p class="result-links-line-text">CSS “Name of the theme”:</p>
-                            <a href="" class="result-links-line-link">Go to</a>
-                        </div>
-                        <div class="result-links-line">
-                            <p class="result-links-line-text">CSS “Name of the theme”:</p>
-                            <a href="" class="result-links-line-link">Go to</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div id="answers" class="test"></div>
         </section>
     </header>
 
@@ -296,7 +194,9 @@
         <a href="www.freepik.com" target="_blank" class="freepik">Business vector created by vectorjuice - www.freepik.com</a>
     </footer>
 
+    <script src="/js/fe-brief/tests.js"></script>
     <script src="/js/scroll.js"></script>
     <script src="/js/parallax.js"></script>
+    <script src="/js/dou_data_filter.js"></script>
 </body>
 </html>

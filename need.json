@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "question": "What tag is used to indicate the page author, keywords, description and encoding?<br>PS. IDK - i don't know",
+        "category": "HTML",
+        "answers": [
+            {
+                "text":"mete"
+            },
+            {
+                "text":"head"
+            },
+            {
+                "text":"meta"
+            },
+            {
+                "text":"html"
+            },
+            {
+                "text":"idk"
+            }
+        ],
+        "correct": "meta",
+        "link":"https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Document_metadata",
+        "title": "HTML. Document metadata"
+    },
+    {
+        "id": 2,
+        "question": "What will the code return ['car'].slice() ?<br>PS. IDK - i don't know",
+        "category": "JavaScript",
+        "answers": [
+            {
+                "text":"[]"
+            },
+            {
+                "text":"['car']"
+            },
+            {
+                "text":"undefined"
+            },
+            {
+                "text":"null"
+            },
+            {
+                "text":"it will be a mistake"
+            },
+            {
+                "text":"idk"
+            }
+        ],
+        "correct": "['car']",
+        "link":"https://learn.javascript.ru/array-methods",
+        "title": "JavaScript. Array methods"
+    },
+    {
+        "id": 3,
+        "question": "Choose an incorrect value for the background-color property.<br>PS. IDK - i don't know",
+        "category": "CSS",
+        "answers": [
+            {
+                "text":"currentcolor"
+            },
+            {
+                "text":"#ff000080"
+            },
+            {
+                "text":"rgba(255, 0, 0, 0.3)"
+            },
+            {
+                "text":"hsl(120, 100%, 50%)"
+            },
+            {
+                "text":"all of them"
+            },
+            {
+                "text":"idk"
+            }
+        ],
+        "correct": "all of them",
+        "link":"https://developer.mozilla.org/ru/docs/Web/CSS/background-color",
+        "title": "CSS. background-color"
+    },
+    {
+        "id": 4,
+        "question": "What is the name of the mechanism that allows more than one CSS rule to be applied to one HTML element?<br>PS. IDK - i don't know",
+        "category": "CSS",
+        "answers": [
+            {
+                "text":"polymorphism"
+            },
+            {
+                "text":"multithreading"
+            },
+            {
+                "text":"heritability"
+            },
+            {
+                "text":"cascade"
+            },
+            {
+                "text":"idk"
+            }
+        ],
+        "correct": "cascade",
+        "link":"https://developer.mozilla.org/ru/docs/Web/Guide/CSS/Getting_Started/Cascading_and_inheritance",
+        "title": "CSS. Cascade"
+    },
+    {
+        "id": 5,
+        "question": "Variables with strings and objects store the values themselves, and with arrays they store a reference to an array, right?<br>PS. IDK - i don't know",
+        "category": "JavaScript",
+        "answers": [
+            {
+                "text":"yes"
+            },
+            {
+                "text":"no"
+            },
+            {
+                "text":"idk"
+            }
+        ],
+        "correct": "no",
+        "link":"https://learn.javascript.ru/variables",
+        "title": "JavaScript. Variables"
+    },
+    {
+        "id": 6,
+        "question": "Which attribute is either get or post?<br>PS. IDK - i don't know",
+        "category": "HTML",
+        "answers": [
+            {
+                "text":"method"
+            },
+            {
+                "text":"action"
+            },
+            {
+                "text":"type"
+            },
+            {
+                "text":"for"
+            },
+            {
+                "text":"idk"
+            }
+        ],
+        "correct": "method",
+        "link":"https://developer.mozilla.org/ru/docs/Web/HTML/Element/form",
+        "title": "HTML. Form. Method"
+    }
+]

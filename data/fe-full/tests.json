@@ -1,0 +1,150 @@
+[
+    {
+        "id":"1",
+        "category":"HTML",
+        "complexity":"easy",
+        "question":"There is an input with the attribute list = 'cities'. Which HTML element should be specified with the id = 'citie' attribute so that inside it you can specify a list of words that will be used to autocomplete the above input?<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"options",
+                "value":"0.8"
+            },
+            {
+                "answer":"datalist",
+                "value":"1"
+            },
+            {
+                "answer":"datavariants",
+                "value":"0.2"
+            },
+            {
+                "answer":"variants",
+                "value":"-1"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    },
+    {
+        "id":"2",
+        "category":"JavaScript",
+        "complexity":"advanced",
+        "question":"(new Object) .valueOf () will return...<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"empty object {}",
+                "value":"1"
+            },
+            {
+                "answer":"line 'object'",
+                "value":"0.2"
+            },
+            {
+                "answer":"line 'Object'",
+                "value":"0.2"
+            },
+            {
+                "answer":"empty line ''",
+                "value":"0.8"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    },
+    {
+        "id":"3",
+        "category":"HTML",
+        "complexity":"easy",
+        "question":"What tag is used to indicate the page author, keywords, description and encoding?<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"mete",
+                "value":"0.8"
+            },
+            {
+                "answer":"head",
+                "value":"0.2"
+            },
+            {
+                "answer":"meta",
+                "value":"1"
+            },
+            {
+                "answer":"html",
+                "value":"-1"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    },
+    {
+        "id":"4",
+        "category":"JavaScript",
+        "complexity":"easy",
+        "question":"What will the code return ['car'].slice() ?<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"[]",
+                "value":"0.8"
+            },
+            {
+                "answer":"['car']",
+                "value":"1"
+            },
+            {
+                "answer":"undefined",
+                "value":"0.2"
+            },
+            {
+                "answer":"null",
+                "value":"0.2"
+            },
+            {
+                "answer":"it will be a mistake",
+                "value":"-1"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    },
+    {
+        "id":"5",
+        "category":"CSS",
+        "complexity":"normal",
+        "question":"Choose an incorrect value for the background-color property.<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"currentcolor",
+                "value":"0.2"
+            },
+            {
+                "answer":"#ff000080",
+                "value":"0.8"
+            },
+            {
+                "answer":"rgba(255, 0, 0, 0.3)",
+                "value":"0.8"
+            },
+            {
+                "answer":"hsl(120, 100%, 50%)",
+                "value":"0.8"
+            },
+            {
+                "answer":"all of them",
+                "value":"1"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    }
+]

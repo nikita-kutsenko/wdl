@@ -1,0 +1,284 @@
+[
+    {
+        "id":"1",
+        "category":"HTML",
+        "question":"What tag is used to indicate the page author, keywords, description and encoding?<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"mete",
+                "value":"0.8"
+            },
+            {
+                "answer":"head",
+                "value":"0.2"
+            },
+            {
+                "answer":"meta",
+                "value":"1"
+            },
+            {
+                "answer":"html",
+                "value":"-1"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    },
+    {
+        "id":"2",
+        "category":"JavaScript",
+        "question":"What will the code return ['car'].slice() ?<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"[]",
+                "value":"0.8"
+            },
+            {
+                "answer":"['car']",
+                "value":"1"
+            },
+            {
+                "answer":"undefined",
+                "value":"0.2"
+            },
+            {
+                "answer":"null",
+                "value":"0.2"
+            },
+            {
+                "answer":"it will be a mistake",
+                "value":"-1"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    },
+    {
+        "id":"3",
+        "category":"CSS",
+        "question":"Choose an incorrect value for the background-color property.<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"currentcolor",
+                "value":"0.2"
+            },
+            {
+                "answer":"#ff000080",
+                "value":"0.8"
+            },
+            {
+                "answer":"rgba(255, 0, 0, 0.3)",
+                "value":"0.8"
+            },
+            {
+                "answer":"hsl(120, 100%, 50%)",
+                "value":"0.8"
+            },
+            {
+                "answer":"all of them",
+                "value":"1"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    },  
+    {
+        "id":"4",
+        "category":"CSS",
+        "question":"What is the name of the mechanism that allows more than one CSS rule to be applied to one HTML element?<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"polymorphism",
+                "value":"0.2"
+            },
+            {
+                "answer":"multithreading",
+                "value":"0.2"
+            },
+            {
+                "answer":"heritability",
+                "value":"0.2"
+            },
+            {
+                "answer":"cascade",
+                "value":"1"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    },  
+    {
+        "id":"5",
+        "category":"JavaScript",
+        "question":"Variables with strings and objects store the values themselves, and with arrays they store a reference to an array, right?<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"yes",
+                "value":"0.2"
+            },
+            {
+                "answer":"no",
+                "value":"1"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    },  
+    {
+        "id":"6",
+        "category":"HTML",
+        "question":"What is the name of the mechanism that allows more than one CSS rule to be applied to one HTML element?<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"method",
+                "value":"1"
+            },
+            {
+                "answer":"action",
+                "value":"0.8"
+            },
+            {
+                "answer":"type",
+                "value":"-1"
+            },
+            {
+                "answer":"for",
+                "value":"0.2"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    },
+    {
+        "id":"7",
+        "category":"HTML",
+        "question":"What attribute of an ordered list allows you to specify which number the numbering starts with?<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"reserved",
+                "value":"-1"
+            },
+            {
+                "answer":"number",
+                "value":"0.2"
+            },
+            {
+                "answer":"starting",
+                "value":"0.8"
+            },
+            {
+                "answer":"such attribute exists, but has not been listed",
+                "value":"1"
+            },
+            {
+                "answer":"no such attribute exists",
+                "value":"0.2"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    },
+    {
+        "id":"8",
+        "category":"CSS",
+        "question":"On elements with display: inline (which are not children of flex items), the properties will trigger (i.e. affect the layout of the elements on the page)...<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"margin-top and margin-bottom",
+                "value":"0.8"
+            },
+            {
+                "answer":"margin-left and margin-right",
+                "value":"1"
+            },
+            {
+                "answer":"all of margin properties will work",
+                "value":"0.2"
+            },
+            {
+                "answer":"none of margin properties will work",
+                "value":"-1"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    },
+    {
+        "id":"9",
+        "category":"JavaScript",
+        "question":"What will the code below return?<br>'string'[1]<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"'string'",
+                "value":"0.2"
+            },
+            {
+                "answer":"'String'",
+                "value":"-1"
+            },
+            {
+                "answer":"'t'",
+                "value":"1"
+            },
+            {
+                "answer":"'s'",
+                "value":"0.8"
+            },
+            {
+                "answer":"''",
+                "value":"-1"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    },
+    {
+        "id":"10",
+        "category":"JavaScript",
+        "question":"If you subtract the other from one date (both are created via a Date object)...<br>PS. IDK - i don't know",
+        "answersList":[
+            {
+                "answer":"you will get the difference between them in days",
+                "value":"0.8"
+            },
+            {
+                "answer":"you will get the difference between them in seconds",
+                "value":"0.8"
+            },
+            {
+                "answer":"you will get the difference between them in milliseconds",
+                "value":"1"
+            },
+            {
+                "answer":"you will a new Date object",
+                "value":"0.2"
+            },
+            {
+                "answer":"an error will occur",
+                "value":"-1"
+            },
+            {
+                "answer":"idk",
+                "value":"-1"
+            }
+        ]
+    }  
+]

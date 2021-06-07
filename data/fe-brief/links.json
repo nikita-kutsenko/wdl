@@ -1,0 +1,153 @@
+[
+    {
+        "id":"1",
+        "recommendation":{
+            "link":"https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Document_metadata",
+            "theme":"Document metadata"
+        },
+        "refresh":{
+            "link":"https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Document_metadata",
+            "theme":"Document metadata"
+        },
+        "learn":{
+            "link":"https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Document_metadata",
+            "theme":"Document metadata"
+        }
+    },
+    {
+        "id":"2",
+        "recommendation":{
+            "link":"https://learn.javascript.ru/array-methods",
+            "theme":"Array methods"
+        },
+        "refresh":{
+            "link":"https://learn.javascript.ru/array-methods",
+            "theme":"Array methods"
+        },
+        "learn":{
+            "link":"https://learn.javascript.ru/array-methods",
+            "theme":"Array methods"
+        }
+    },
+    {
+        "id":"3",
+        "recommendation":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/CSS/background-color",
+            "theme":"background-color"
+        },
+        "refresh":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/CSS/background-color",
+            "theme":"background-color"
+        },
+        "learn":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/CSS/background-color",
+            "theme":"background-color"
+        }
+    },
+    {
+        "id":"4",
+        "recommendation":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/Guide/CSS/Getting_Started/Cascading_and_inheritance",
+            "theme":"Cascade"
+        },
+        "refresh":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/Guide/CSS/Getting_Started/Cascading_and_inheritance",
+            "theme":"Cascade"
+        },
+        "learn":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/Guide/CSS/Getting_Started/Cascading_and_inheritance",
+            "theme":"Cascade"
+        }
+    },
+    {
+        "id":"5",
+        "recommendation":{
+            "link":"https://learn.javascript.ru/variables",
+            "theme":"Variables"
+        },
+        "refresh":{
+            "link":"https://learn.javascript.ru/variables",
+            "theme":"Variables"
+        },
+        "learn":{
+            "link":"https://learn.javascript.ru/variables",
+            "theme":"Variables"
+        }
+    },
+    {
+        "id":"6",
+        "recommendation":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/HTML/Element/form",
+            "theme":"Form. Method"
+        },
+        "refresh":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/HTML/Element/form",
+            "theme":"Form. Method"
+        },
+        "learn":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/HTML/Element/form",
+            "theme":"Form. Method"
+        }
+    },
+    {
+        "id":"7",
+        "recommendation":{
+            "link":"http://htmlbook.ru/html/ol/start",
+            "theme":"Number list. Attribute start"
+        },
+        "refresh":{
+            "link":"http://htmlbook.ru/html/ol/start",
+            "theme":"Number list. Attribute start"
+        },
+        "learn":{
+            "link":"http://htmlbook.ru/html/ol/start",
+            "theme":"Number list. Attribute start"
+        }
+    },
+    {
+        "id":"8",
+        "recommendation":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/CSS/margin",
+            "theme":"margin"
+        },
+        "refresh":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/CSS/margin",
+            "theme":"margin"
+        },
+        "learn":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/CSS/margin",
+            "theme":"margin"
+        }
+    },
+    {
+        "id":"9",
+        "recommendation":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array",
+            "theme":"Array"
+        },
+        "refresh":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array",
+            "theme":"Array"
+        },
+        "learn":{
+            "link":"https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array",
+            "theme":"Array"
+        }
+    },
+    {
+        "id":"10",
+        "recommendation":{
+            "link":"https://learn.javascript.ru/date",
+            "theme":"new Date"
+        },
+        "refresh":{
+            "link":"https://learn.javascript.ru/date",
+            "theme":"new Date"
+        },
+        "learn":{
+            "link":"https://learn.javascript.ru/date",
+            "theme":"new Date"
+        }
+    }
+    
+]

@@ -4,7 +4,7 @@ document.addEventListener("mousemove", parallax);
 
 function parallax(e){
     for (let i of items) {
-        console.dir(i);
+        // console.dir(i);
         let WIDTH = window.innerWidth,
             HEIGHT = window.innerHeight,
             SPEED = i.dataset.speed,
