@@ -1,230 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
     <title>WDL | Front-End: Basic test</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.js" integrity="sha512-opXrgVcTHsEVdBUZqTPlW9S8+99hNbaHmXtAdXXc61OUU6gOII5ku/PzZFqexHXc3hnK8IrJKHo+T7O4GRIJcw==" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.js"
+      integrity="sha512-opXrgVcTHsEVdBUZqTPlW9S8+99hNbaHmXtAdXXc61OUU6gOII5ku/PzZFqexHXc3hnK8IrJKHo+T7O4GRIJcw=="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header class="header">
-        <!-- navigation  -->
-        <nav id="nav" class="nav">
-                <!-- headline  -->
-            <a href="/" class="nav-logo">
-                <h1 id="logo" class="nav-logo-text">&#60;/WEB DEVELOPMENT LEARNING&#62;</h1>
-            </a>
-            <!-- nav links  -->
-            <ul class="nav-list">
-                <li class="nav-list-item ">
-                    <a href="/" class="nav-list-item-link nav-nonactive">Home</a>
-                </li>
-                <li class="nav-list-item ">
-                    <a href="/pages/tests/" class="nav-list-item-link nav-active">Tests</a>
-                </li>
-            </ul>
-            <!-- switcher day/night -->
-            <!-- <span class="header-helper-nav-switcher"></span> -->
-        </nav>
+      <!-- navigation  -->
+      <nav id="nav" class="nav">
+        <!-- headline  -->
+        <a href="/" class="nav-logo">
+          <h1 id="logo" class="nav-logo-text">
+            &#60;/WEB DEVELOPMENT LEARNING&#62;
+          </h1>
+        </a>
+        <!-- nav links  -->
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="/" class="nav-list-item-link nav-nonactive">Home</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="/pages/tests/" class="nav-list-item-link nav-active"
+              >Tests</a
+            >
+          </li>
+        </ul>
+        <!-- switcher day/night -->
+        <!-- <span class="header-helper-nav-switcher"></span> -->
+      </nav>
 
+      <!-- DECORATION  -->
+      <span class="decor-circle circle-one parallax" data-speed="6"></span>
+
+      <section class="testBlock container">
+        <!-- dots 1 -- top  -->
+        <svg
+          class="testBlock-dotsTop"
+          width="200"
+          height="100"
+          viewBox="0 0 200 100"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0)">
+            <circle cx="5" cy="5" r="5" fill="#051257" />
+            <circle cx="23" cy="5" r="5" fill="#051257" />
+            <circle cx="41" cy="5" r="5" fill="#051257" />
+            <circle cx="59" cy="5" r="5" fill="#051257" />
+            <circle cx="77" cy="5" r="5" fill="#051257" />
+            <circle cx="95" cy="5" r="5" fill="#051257" />
+            <circle cx="113" cy="5" r="5" fill="#051257" />
+            <circle cx="131" cy="5" r="5" fill="#051257" />
+            <circle cx="149" cy="5" r="5" fill="#051257" />
+            <circle cx="167" cy="5" r="5" fill="#051257" />
+            <circle cx="185" cy="5" r="5" fill="#051257" />
+            <circle cx="5" cy="23" r="5" fill="#051257" />
+            <circle cx="23" cy="23" r="5" fill="#051257" />
+            <circle cx="41" cy="23" r="5" fill="#051257" />
+            <circle cx="59" cy="23" r="5" fill="#051257" />
+            <circle cx="77" cy="23" r="5" fill="#051257" />
+            <circle cx="95" cy="23" r="5" fill="#051257" />
+            <circle cx="113" cy="23" r="5" fill="#051257" />
+            <circle cx="131" cy="23" r="5" fill="#051257" />
+            <circle cx="149" cy="23" r="5" fill="#051257" />
+            <circle cx="167" cy="23" r="5" fill="#051257" />
+            <circle cx="5" cy="41" r="5" fill="#051257" />
+            <circle cx="23" cy="41" r="5" fill="#051257" />
+            <circle cx="41" cy="41" r="5" fill="#051257" />
+            <circle cx="59" cy="41" r="5" fill="#051257" />
+            <circle cx="77" cy="41" r="5" fill="#051257" />
+            <circle cx="95" cy="41" r="5" fill="#051257" />
+            <circle cx="113" cy="41" r="5" fill="#051257" />
+            <circle cx="131" cy="41" r="5" fill="#051257" />
+            <circle cx="149" cy="41" r="5" fill="#051257" />
+            <circle cx="5" cy="59" r="5" fill="#051257" />
+            <circle cx="23" cy="59" r="5" fill="#051257" />
+            <circle cx="41" cy="59" r="5" fill="#051257" />
+            <circle cx="59" cy="59" r="5" fill="#051257" />
+            <circle cx="77" cy="59" r="5" fill="#051257" />
+            <circle cx="95" cy="59" r="5" fill="#051257" />
+            <circle cx="113" cy="59" r="5" fill="#051257" />
+            <circle cx="131" cy="59" r="5" fill="#051257" />
+            <circle cx="5" cy="77" r="5" fill="#051257" />
+            <circle cx="23" cy="77" r="5" fill="#051257" />
+            <circle cx="41" cy="77" r="5" fill="#051257" />
+            <circle cx="59" cy="77" r="5" fill="#051257" />
+            <circle cx="77" cy="77" r="5" fill="#051257" />
+            <circle cx="95" cy="77" r="5" fill="#051257" />
+            <circle cx="113" cy="77" r="5" fill="#051257" />
+            <circle cx="5" cy="95" r="5" fill="#051257" />
+            <circle cx="23" cy="95" r="5" fill="#051257" />
+            <circle cx="41" cy="95" r="5" fill="#051257" />
+            <circle cx="59" cy="95" r="5" fill="#051257" />
+            <circle cx="77" cy="95" r="5" fill="#051257" />
+            <circle cx="95" cy="95" r="5" fill="#051257" />
+          </g>
+          <defs>
+            <clipPath id="clip0">
+              <rect width="200" height="100" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+        <!-- dots 2 -- under shape  -->
+        <svg
+          class="testBlock-dotsBottom"
+          width="200"
+          height="100"
+          viewBox="0 0 200 100"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0)">
+            <circle cx="5" cy="5" r="5" fill="#051257" />
+            <circle cx="23" cy="5" r="5" fill="#051257" />
+            <circle cx="41" cy="5" r="5" fill="#051257" />
+            <circle cx="59" cy="5" r="5" fill="#051257" />
+            <circle cx="77" cy="5" r="5" fill="#051257" />
+            <circle cx="95" cy="5" r="5" fill="#051257" />
+            <circle cx="113" cy="5" r="5" fill="#051257" />
+            <circle cx="131" cy="5" r="5" fill="#051257" />
+            <circle cx="149" cy="5" r="5" fill="#051257" />
+            <circle cx="167" cy="5" r="5" fill="#051257" />
+            <circle cx="185" cy="5" r="5" fill="#051257" />
+            <circle cx="5" cy="23" r="5" fill="#051257" />
+            <circle cx="23" cy="23" r="5" fill="#051257" />
+            <circle cx="41" cy="23" r="5" fill="#051257" />
+            <circle cx="59" cy="23" r="5" fill="#051257" />
+            <circle cx="77" cy="23" r="5" fill="#051257" />
+            <circle cx="95" cy="23" r="5" fill="#051257" />
+            <circle cx="113" cy="23" r="5" fill="#051257" />
+            <circle cx="131" cy="23" r="5" fill="#051257" />
+            <circle cx="149" cy="23" r="5" fill="#051257" />
+            <circle cx="167" cy="23" r="5" fill="#051257" />
+            <circle cx="5" cy="41" r="5" fill="#051257" />
+            <circle cx="23" cy="41" r="5" fill="#051257" />
+            <circle cx="41" cy="41" r="5" fill="#051257" />
+            <circle cx="59" cy="41" r="5" fill="#051257" />
+            <circle cx="77" cy="41" r="5" fill="#051257" />
+            <circle cx="95" cy="41" r="5" fill="#051257" />
+            <circle cx="113" cy="41" r="5" fill="#051257" />
+            <circle cx="131" cy="41" r="5" fill="#051257" />
+            <circle cx="149" cy="41" r="5" fill="#051257" />
+            <circle cx="5" cy="59" r="5" fill="#051257" />
+            <circle cx="23" cy="59" r="5" fill="#051257" />
+            <circle cx="41" cy="59" r="5" fill="#051257" />
+            <circle cx="59" cy="59" r="5" fill="#051257" />
+            <circle cx="77" cy="59" r="5" fill="#051257" />
+            <circle cx="95" cy="59" r="5" fill="#051257" />
+            <circle cx="113" cy="59" r="5" fill="#051257" />
+            <circle cx="131" cy="59" r="5" fill="#051257" />
+            <circle cx="5" cy="77" r="5" fill="#051257" />
+            <circle cx="23" cy="77" r="5" fill="#051257" />
+            <circle cx="41" cy="77" r="5" fill="#051257" />
+            <circle cx="59" cy="77" r="5" fill="#051257" />
+            <circle cx="77" cy="77" r="5" fill="#051257" />
+            <circle cx="95" cy="77" r="5" fill="#051257" />
+            <circle cx="113" cy="77" r="5" fill="#051257" />
+            <circle cx="5" cy="95" r="5" fill="#051257" />
+            <circle cx="23" cy="95" r="5" fill="#051257" />
+            <circle cx="41" cy="95" r="5" fill="#051257" />
+            <circle cx="59" cy="95" r="5" fill="#051257" />
+            <circle cx="77" cy="95" r="5" fill="#051257" />
+            <circle cx="95" cy="95" r="5" fill="#051257" />
+          </g>
+          <defs>
+            <clipPath id="clip0">
+              <rect width="200" height="100" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
         <!-- DECORATION  -->
-        <span class="decor-circle circle-one parallax" data-speed="6"></span>
-        
-        <section class="testBlock container">
-            <!-- dots 1 -- top  -->
-            <svg class="testBlock-dotsTop" width="200" height="100" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0)">
-                <circle cx="5" cy="5" r="5" fill="#051257"/>
-                <circle cx="23" cy="5" r="5" fill="#051257"/>
-                <circle cx="41" cy="5" r="5" fill="#051257"/>
-                <circle cx="59" cy="5" r="5" fill="#051257"/>
-                <circle cx="77" cy="5" r="5" fill="#051257"/>
-                <circle cx="95" cy="5" r="5" fill="#051257"/>
-                <circle cx="113" cy="5" r="5" fill="#051257"/>
-                <circle cx="131" cy="5" r="5" fill="#051257"/>
-                <circle cx="149" cy="5" r="5" fill="#051257"/>
-                <circle cx="167" cy="5" r="5" fill="#051257"/>
-                <circle cx="185" cy="5" r="5" fill="#051257"/>
-                <circle cx="5" cy="23" r="5" fill="#051257"/>
-                <circle cx="23" cy="23" r="5" fill="#051257"/>
-                <circle cx="41" cy="23" r="5" fill="#051257"/>
-                <circle cx="59" cy="23" r="5" fill="#051257"/>
-                <circle cx="77" cy="23" r="5" fill="#051257"/>
-                <circle cx="95" cy="23" r="5" fill="#051257"/>
-                <circle cx="113" cy="23" r="5" fill="#051257"/>
-                <circle cx="131" cy="23" r="5" fill="#051257"/>
-                <circle cx="149" cy="23" r="5" fill="#051257"/>
-                <circle cx="167" cy="23" r="5" fill="#051257"/>
-                <circle cx="5" cy="41" r="5" fill="#051257"/>
-                <circle cx="23" cy="41" r="5" fill="#051257"/>
-                <circle cx="41" cy="41" r="5" fill="#051257"/>
-                <circle cx="59" cy="41" r="5" fill="#051257"/>
-                <circle cx="77" cy="41" r="5" fill="#051257"/>
-                <circle cx="95" cy="41" r="5" fill="#051257"/>
-                <circle cx="113" cy="41" r="5" fill="#051257"/>
-                <circle cx="131" cy="41" r="5" fill="#051257"/>
-                <circle cx="149" cy="41" r="5" fill="#051257"/>
-                <circle cx="5" cy="59" r="5" fill="#051257"/>
-                <circle cx="23" cy="59" r="5" fill="#051257"/>
-                <circle cx="41" cy="59" r="5" fill="#051257"/>
-                <circle cx="59" cy="59" r="5" fill="#051257"/>
-                <circle cx="77" cy="59" r="5" fill="#051257"/>
-                <circle cx="95" cy="59" r="5" fill="#051257"/>
-                <circle cx="113" cy="59" r="5" fill="#051257"/>
-                <circle cx="131" cy="59" r="5" fill="#051257"/>
-                <circle cx="5" cy="77" r="5" fill="#051257"/>
-                <circle cx="23" cy="77" r="5" fill="#051257"/>
-                <circle cx="41" cy="77" r="5" fill="#051257"/>
-                <circle cx="59" cy="77" r="5" fill="#051257"/>
-                <circle cx="77" cy="77" r="5" fill="#051257"/>
-                <circle cx="95" cy="77" r="5" fill="#051257"/>
-                <circle cx="113" cy="77" r="5" fill="#051257"/>
-                <circle cx="5" cy="95" r="5" fill="#051257"/>
-                <circle cx="23" cy="95" r="5" fill="#051257"/>
-                <circle cx="41" cy="95" r="5" fill="#051257"/>
-                <circle cx="59" cy="95" r="5" fill="#051257"/>
-                <circle cx="77" cy="95" r="5" fill="#051257"/>
-                <circle cx="95" cy="95" r="5" fill="#051257"/>
-                </g>
-                <defs>
-                <clipPath id="clip0">
-                <rect width="200" height="100" fill="white"/>
-                </clipPath>
-                </defs>
-            </svg>
-            <!-- dots 2 -- under shape  -->
-            <svg class="testBlock-dotsBottom" width="200" height="100" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0)">
-                <circle cx="5" cy="5" r="5" fill="#051257"/>
-                <circle cx="23" cy="5" r="5" fill="#051257"/>
-                <circle cx="41" cy="5" r="5" fill="#051257"/>
-                <circle cx="59" cy="5" r="5" fill="#051257"/>
-                <circle cx="77" cy="5" r="5" fill="#051257"/>
-                <circle cx="95" cy="5" r="5" fill="#051257"/>
-                <circle cx="113" cy="5" r="5" fill="#051257"/>
-                <circle cx="131" cy="5" r="5" fill="#051257"/>
-                <circle cx="149" cy="5" r="5" fill="#051257"/>
-                <circle cx="167" cy="5" r="5" fill="#051257"/>
-                <circle cx="185" cy="5" r="5" fill="#051257"/>
-                <circle cx="5" cy="23" r="5" fill="#051257"/>
-                <circle cx="23" cy="23" r="5" fill="#051257"/>
-                <circle cx="41" cy="23" r="5" fill="#051257"/>
-                <circle cx="59" cy="23" r="5" fill="#051257"/>
-                <circle cx="77" cy="23" r="5" fill="#051257"/>
-                <circle cx="95" cy="23" r="5" fill="#051257"/>
-                <circle cx="113" cy="23" r="5" fill="#051257"/>
-                <circle cx="131" cy="23" r="5" fill="#051257"/>
-                <circle cx="149" cy="23" r="5" fill="#051257"/>
-                <circle cx="167" cy="23" r="5" fill="#051257"/>
-                <circle cx="5" cy="41" r="5" fill="#051257"/>
-                <circle cx="23" cy="41" r="5" fill="#051257"/>
-                <circle cx="41" cy="41" r="5" fill="#051257"/>
-                <circle cx="59" cy="41" r="5" fill="#051257"/>
-                <circle cx="77" cy="41" r="5" fill="#051257"/>
-                <circle cx="95" cy="41" r="5" fill="#051257"/>
-                <circle cx="113" cy="41" r="5" fill="#051257"/>
-                <circle cx="131" cy="41" r="5" fill="#051257"/>
-                <circle cx="149" cy="41" r="5" fill="#051257"/>
-                <circle cx="5" cy="59" r="5" fill="#051257"/>
-                <circle cx="23" cy="59" r="5" fill="#051257"/>
-                <circle cx="41" cy="59" r="5" fill="#051257"/>
-                <circle cx="59" cy="59" r="5" fill="#051257"/>
-                <circle cx="77" cy="59" r="5" fill="#051257"/>
-                <circle cx="95" cy="59" r="5" fill="#051257"/>
-                <circle cx="113" cy="59" r="5" fill="#051257"/>
-                <circle cx="131" cy="59" r="5" fill="#051257"/>
-                <circle cx="5" cy="77" r="5" fill="#051257"/>
-                <circle cx="23" cy="77" r="5" fill="#051257"/>
-                <circle cx="41" cy="77" r="5" fill="#051257"/>
-                <circle cx="59" cy="77" r="5" fill="#051257"/>
-                <circle cx="77" cy="77" r="5" fill="#051257"/>
-                <circle cx="95" cy="77" r="5" fill="#051257"/>
-                <circle cx="113" cy="77" r="5" fill="#051257"/>
-                <circle cx="5" cy="95" r="5" fill="#051257"/>
-                <circle cx="23" cy="95" r="5" fill="#051257"/>
-                <circle cx="41" cy="95" r="5" fill="#051257"/>
-                <circle cx="59" cy="95" r="5" fill="#051257"/>
-                <circle cx="77" cy="95" r="5" fill="#051257"/>
-                <circle cx="95" cy="95" r="5" fill="#051257"/>
-                </g>
-                <defs>
-                <clipPath id="clip0">
-                <rect width="200" height="100" fill="white"/>
-                </clipPath>
-                </defs>
-            </svg>
-            <!-- DECORATION  -->
-            <span class="decor-circle circle-five parallax"  data-speed="-10"></span>
-            <span class="decor-circle circle-six parallax"  data-speed="20"></span>
-            <!-- START  -->
-            <div id="test" class="test">
-                <!-- title  -->
-                <h2 class="test-title">Let's start!</h2>
-                <!-- description  -->
-                <h3 class="test-desc">This test contains up to 30 questions and it will take no more than 15 minutes. Due to your answers you will get the list of recommendations. In next steps you will set up the topics and complexity of testing.</h3>
-                <!-- start the test  -->
-                <span id="start" onclick="get_test_params()" class="test-start">next</span>
-                <span id="testCTA_toState1" onclick="goToState1()" style="margin-top: 20px" class="test-start">Go to state 1 (nothing found)</span>
-                <span id="testCTA_toState2" onclick="goToState2()" style="margin-top: 20px" class="test-start">Go to state 2 (Intern, but can be Junior)</span>
-                <span id="testCTA_toState3" onclick="goToState3()" style="margin-top: 20px" class="test-start">Go to state 3 (Junior)</span>
-                <!-- <span id="start" onclick="next_task()" class="test-start">start the test</span> -->
-            </div>
-            <div id="charts_default" class="charts">
-              <p class="charts-headline">What about job?</p>
-              <p class="charts-desc">Here you can see the salaries of Ukrainian Intern/Trainee and Junior Front-End developers for the last 2 years. It will help you with better understanding of your future salary. All data is taken from <a class="charts-desc-link" href="https://dou.ua/">DOU.UA</a>. These are the results of a vote of real Ukrainian developers who passed a survey on <a class="charts-desc-link" href="https://dou.ua/">DOU.UA</a>.</p>
-              <p class="charts-desc">To get the information of which job is better for you, please complete this Full test with selecting all categories & complexities.</p>
+        <span class="decor-circle circle-five parallax" data-speed="-10"></span>
+        <span class="decor-circle circle-six parallax" data-speed="20"></span>
+        <!-- START  -->
+        <div id="test" class="test">
+          <!-- title  -->
+          <h2 class="test-title">Let's start!</h2>
+          <!-- description  -->
+          <h3 class="test-desc">
+            This test contains up to 30 questions and it will take no more than
+            15 minutes. Due to your answers you will get the list of
+            recommendations. In next steps you will set up the topics and
+            complexity of testing.
+          </h3>
+          <!-- start the test  -->
+          <span id="start" onclick="get_test_params()" class="test-start"
+            >next</span
+          >
+          <span
+            id="testCTA_toState1"
+            onclick="goToState1()"
+            style="margin-top: 20px"
+            class="test-start"
+            >Go to state 1 (nothing found)</span
+          >
+          <span
+            id="testCTA_toState2"
+            onclick="goToState2()"
+            style="margin-top: 20px"
+            class="test-start"
+            >Go to state 2 (Intern, but can be Junior)</span
+          >
+          <span
+            id="testCTA_toState3"
+            onclick="goToState3()"
+            style="margin-top: 20px"
+            class="test-start"
+            >Go to state 3 (Junior)</span
+          >
+          <!-- <span id="start" onclick="next_task()" class="test-start">start the test</span> -->
+        </div>
+        <div id="charts_default" class="charts">
+          <p class="charts-headline">What about job?</p>
+          <p class="charts-desc">
+            Here you can see the salaries of Ukrainian Intern/Trainee and Junior
+            Front-End developers for the last 2 years. It will help you with
+            better understanding of your future salary. All data is taken from
+            <a class="charts-desc-link" href="https://dou.ua/">DOU.UA</a>. These
+            are the results of a vote of real Ukrainian developers who passed a
+            survey on
+            <a class="charts-desc-link" href="https://dou.ua/">DOU.UA</a>.
+          </p>
+          <p class="charts-desc">
+            To get the information of which job is better for you, please
+            complete this Full test with selecting all categories &
+            complexities.
+          </p>
 
-              <p class="charts-title trainee">Intern/Trainee Front-End developers</p>
-              <p class="charts-year trainee">December 2020</p>
-              <canvas id="chart_default_in" class="trainee" width="840px" height="350px"></canvas>
+          <p class="charts-title trainee">
+            Intern/Trainee Front-End developers
+          </p>
+          <p class="charts-year trainee">December 2020</p>
+          <canvas
+            id="chart_default_in"
+            class="trainee"
+            width="840px"
+            height="350px"
+          ></canvas>
 
-              <p class="charts-title junior">Junior Front-End developers</p>
-              <p class="charts-year junior">June 2019 - December 2020</p>
-              <canvas id="chart_default_jun" class="junior" width="840px" height="350px"></canvas>
-            </div>
-            <div id="charts" class="charts">
-              <p id="charts-headline" class="charts-headline"></p>
-              <p id="charts-desc" class="charts-desc"></p>
-              <p id="charts-title" class="charts-title"> </p>
-              <p id="charts-years" class="charts-year"> </p>
-              <canvas id="chart_in" class="trainee" width="840px" height="350px"></canvas>
+          <p class="charts-title junior">Junior Front-End developers</p>
+          <p class="charts-year junior">June 2019 - December 2020</p>
+          <canvas
+            id="chart_default_jun"
+            class="junior"
+            width="840px"
+            height="350px"
+          ></canvas>
+        </div>
+        <div id="charts" class="charts">
+          <p id="charts-headline" class="charts-headline"></p>
+          <p id="charts-desc" class="charts-desc"></p>
+          <p id="charts-title" class="charts-title"></p>
+          <p id="charts-years" class="charts-year"></p>
+          <canvas
+            id="chart_in"
+            class="trainee"
+            width="840px"
+            height="350px"
+          ></canvas>
 
-              <p id="charts-title_more" class="charts-title"></p>
-              <p id="charts-desc_more" class="charts-desc"></p>
-              <p id="charts-years_more" class="charts-year"></p>
-              <canvas id="chart_jun" class="junior" width="840px" height="350px"></canvas>
-            </div>
-            <div id="answers" class="test"></div>
-        </section>
+          <p id="charts-title_more" class="charts-title"></p>
+          <p id="charts-desc_more" class="charts-desc"></p>
+          <p id="charts-years_more" class="charts-year"></p>
+          <canvas
+            id="chart_jun"
+            class="junior"
+            width="840px"
+            height="350px"
+          ></canvas>
+        </div>
+        <div id="answers" class="test"></div>
+      </section>
     </header>
 
-    <footer class="footer ">
-        <nav class="nav container">
-            <!-- headline  -->
-            <a href="/" class="nav-logo">
-                <h1 class="nav-logo-text">&#60;/WEB DEVELOPMENT LEARNING&#62;</h1>
-            </a>
-            <!-- nav links  -->
-            <ul class="nav-list">
-                <li class="nav-list-item">
-                    <a href="/" class="nav-list-item-link">Home</a>
-                </li>
-                <li class="nav-list-item">
-                    <a href="/pages/tests/" class="nav-list-item-link">Tests</a>
-                </li>
-            </ul>
-        </nav>
-        <a href="https://www.linkedin.com/in/nikita-kutsenko/" target="_blank" class="created">Created by Nikita Kutsenko</a>
-        <a href="www.freepik.com" target="_blank" class="freepik">Business vector created by vectorjuice - www.freepik.com</a>
+    <footer class="footer">
+      <nav class="nav container">
+        <!-- headline  -->
+        <a href="/" class="nav-logo">
+          <h1 class="nav-logo-text">&#60;/WEB DEVELOPMENT LEARNING&#62;</h1>
+        </a>
+        <!-- nav links  -->
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="/" class="nav-list-item-link">Home</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="/pages/tests/" class="nav-list-item-link">Tests</a>
+          </li>
+        </ul>
+      </nav>
+      <a
+        href="https://www.linkedin.com/in/nikita-kutsenko/"
+        target="_blank"
+        class="created"
+        >Created by Nikita Kutsenko</a
+      >
+      <a href="www.freepik.com" target="_blank" class="freepik"
+        >Business vector created by vectorjuice - www.freepik.com</a
+      >
     </footer>
 
     <script src="/js/fe-full/tests.js"></script>
     <script src="/js/scroll.js"></script>
     <script src="/js/parallax.js"></script>
     <script src="/js/dou_data_filter.js"></script>
-</body>
+  </body>
 </html>
