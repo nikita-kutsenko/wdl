@@ -75,8 +75,8 @@ class Tasks{
 }
 
 let tests, tests_before_complexity, tests_before_categories, links;
-new Tasks("../../data/fe-full/tests copy.json").getData().then(data => {tests_before_categories = data}),
-new Tasks("../../data/fe-full/links.json").getData().then(data => {links = data});
+new Tasks("../../../../data/fe-full/tests copy.json").getData().then(data => {tests_before_categories = data}),
+new Tasks("../../../../data/fe-full/links.json").getData().then(data => {links = data});
 
 
 // 3. FUNCTIONS 
