@@ -140,7 +140,7 @@ table {
       right: 0;
       top: -28px;
       z-index: 1013;
-      background-image: url(./assets/index-people.png);
+      background-image: url(../assets/index-people.png);
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat; }
@@ -154,7 +154,7 @@ table {
       height: 130px;
       margin-top: 90px;
       margin-left: calc(50% - 65px);
-      background-image: url(./assets/index-arrow.png);
+      background-image: url(../assets/index-arrow.png);
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;

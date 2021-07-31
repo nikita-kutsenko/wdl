@@ -53,8 +53,8 @@ class Tasks{
 }
 
 let tests,links;
-new Tasks("/data/fe-brief/tests.json").getData().then(data => {tests = data}),
-new Tasks("/data/fe-brief/links.json").getData().then(data => {links = data});
+new Tasks("../../data/fe-brief/tests.json").getData().then(data => {tests = data}),
+new Tasks("../../data/fe-brief/links.json").getData().then(data => {links = data});
 
 
 // 3. FUNCTIONS 
