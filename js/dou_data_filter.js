@@ -29,7 +29,7 @@ AMOUNTS_jun_sal_20_dec = {
   salaries: [],
   amount: []
 }
-new Dou("/dou/2020_dec_raw.json")
+new Dou("../../dou/2020_dec_raw.json")
   .getData('20 dec')
   .then(data => {
     all_user_20_dec = data
@@ -132,7 +132,7 @@ let AMOUNTS_jun_sal_20_jun = {
   salaries: [],
   amount: []
 }
-new Dou("/dou/2020_june_mini.json")
+new Dou("../../dou/2020_june_mini.json")
   .getData('20 jun')
   .then(data => {
     all_user_20_jun = data
@@ -172,7 +172,7 @@ let AMOUNTS_jun_sal_19_dec = {
   salaries: [],
   amount: []
 }
-new Dou("../dou/2019_dec_raw.json")
+new Dou("../../dou/2019_dec_raw.json")
   .getData('19 dec')
   .then(data => {
     all_user_19_dec = data
@@ -212,7 +212,7 @@ let AMOUNTS_jun_sal_19_jun = {
   salaries: [],
   amount: []
 }
-new Dou("../dou/2019_june_raw.json")
+new Dou("../../dou/2019_june_raw.json")
   .getData('19 jun')
   .then(data => {
     all_user_19_jun = data
